@@ -195,7 +195,7 @@ const Pricing = () => {
                     179zł* 
                 </p>
                 <p className='p-5 flex justify-center min-h-[5rem]'>
-                    <Checkout title={'Plan jakubsc Special'} price={179} buttonText={'Kup Special'}/>
+                    <Checkout title={'Plan Special'} price={179} buttonText={'Kup Special'}/>
                 </p>
             </div>
         </div>
