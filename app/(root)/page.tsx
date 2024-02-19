@@ -16,7 +16,7 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <Image
-                src='/assets/images/jan.png'
+                src='/assets/images/JAN.png'
                 alt="jan"
                 width={300}
                 height={400}
@@ -25,7 +25,7 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <Image
-                src='/assets/images/kowalski.png'
+                src='/assets/images/KOWALSKI.png'
                 alt="kowalski"
                 width={800}
                 height={1000}
