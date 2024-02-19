@@ -11,10 +11,8 @@ export default function Home() {
     <div>
         <div className="md:min-h-[100vh] bg-muscular flex items-center justify-center mt-20 md:mt-0">
           <div className="max-w-6xl w-full p-10 flex flex-col items-center justify-center text-center">
-            <Reveal>
               <p className="md:text-2xl text-lg p-2">Trener personalny</p>
-            </Reveal>
-            <Reveal>
+
               <Image
                 src='/assets/images/JAN.png'
                 alt="jan"
@@ -22,8 +20,7 @@ export default function Home() {
                 height={400}
                 className="p-5"
               />
-            </Reveal>
-            <Reveal>
+
               <Image
                 src='/assets/images/KOWALSKI.png'
                 alt="kowalski"
@@ -31,21 +28,17 @@ export default function Home() {
                 height={1000}
                 className="p-5"
               />
-            </Reveal>
-            <Reveal>
-              <p className="mt-5 p-2 md:text-lg">Nigdy nie rezygnuj z celu tylko dlatego, że osiągnięcie go wymaga czasu. Czas i tak upłynie.</p>
-            </Reveal>
-            <Reveal>
-              <p className="md:text-xl text-pink-700 font-bold">Earl Nightingale</p>
-            </Reveal>
 
-            <Reveal>
+              <p className="mt-5 p-2 md:text-lg">Nigdy nie rezygnuj z celu tylko dlatego, że osiągnięcie go wymaga czasu. Czas i tak upłynie.</p>
+
+              <p className="md:text-xl text-pink-700 font-bold">Earl Nightingale</p>
+
               <Button size="lg" className="mt-10 button w-fit bg-pink-700 hover:bg-pink-900 rounded-xl">
                 <Link href="#oferta">
                   Zobacz ofertę
                 </Link>
               </Button>
-            </Reveal>
+
           </div>
         </div>
 
